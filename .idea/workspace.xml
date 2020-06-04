@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41748172-44a9-4c8c-83be-d89f322df744" name="Default Changelist" comment="" />
+    <list default="true" id="41748172-44a9-4c8c-83be-d89f322df744" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/java/recursive/ReverseArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/array/ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/SortArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/array/SortArrayList.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +22,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -40,13 +49,26 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.ReverseArray">
+    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.recursive.ReverseArray" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.recursive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tinkers.Test" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.*" />
+          <option name="PATTERN" value="com.java.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,7 +81,7 @@
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.*" />
+          <option name="PATTERN" value="com.java.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,55 +89,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="DataStructuresAndAlgorithms" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="DataStructuresAndAlgorithms" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseArray" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.WeakHashTest" />
       </list>
@@ -133,6 +109,7 @@
       <updated>1591091930243</updated>
       <workItem from="1591091931942" duration="1519000" />
       <workItem from="1591237967965" duration="5449000" />
+      <workItem from="1591248584602" duration="659000" />
     </task>
     <servers />
   </component>
@@ -144,6 +121,10 @@
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
     <state x="2320" y="398" key="#Project_Structure/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591091942490" />
+    <state x="2221" y="336" key="CommitChangelistDialog2" timestamp="1591249238232">
+      <screen x="1440" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2221" y="336" key="CommitChangelistDialog2/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591249238232" />
     <state width="485" height="466" key="DebuggerActiveHint" timestamp="1591241836595">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
@@ -180,5 +161,9 @@
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
     <state width="2518" height="501" key="GridCell.Tab.1.right/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591248046819" />
+    <state x="2509" y="656" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591249248417">
+      <screen x="1440" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2509" y="656" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591249248417" />
   </component>
 </project>

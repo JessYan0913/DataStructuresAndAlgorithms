@@ -1,6 +1,6 @@
 */target
 */tomcat
 *.iml
-/.idea
+/.idea/
 *.class
 /data/

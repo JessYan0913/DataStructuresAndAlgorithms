@@ -1,4 +1,4 @@
-package com.java;
+package com.java.array;
 
 public class SortArrayList {
 
@@ -7,13 +7,18 @@ public class SortArrayList {
     private int effectiveLength;
 
     public SortArrayList() {
-        array = new long[4];
+        array = new long[64];
     }
 
     public SortArrayList(int length) {
         array = new long[length];
     }
 
+    /**
+     * 拆入数据
+     *
+     * @param value
+     */
     public void insert(long value) {
         //当有效长度超过数组长度时，对数组扩容
         if (!(effectiveLength < array.length)) {
@@ -42,6 +47,9 @@ public class SortArrayList {
         effectiveLength++;
     }
 
+    /**
+     * 打印array
+     */
     public void show() {
         System.out.print("[");
         for (int i = 0; i < effectiveLength; i++) {
@@ -50,6 +58,12 @@ public class SortArrayList {
         System.out.print("]\n");
     }
 
+    /**
+     * 使用二分法查找数据的下标
+     *
+     * @param value
+     * @return
+     */
     public int indexOf(long value) {
         //采用二分法查找
         //定义中指针
@@ -79,6 +93,12 @@ public class SortArrayList {
         }
     }
 
+    /**
+     * 使用递归的方式实现二分法查找
+     *
+     * @param value
+     * @return
+     */
     public int recursiveIndexOf(long value) {
         //采用递归的方式实现二分法
         return queryValue(value, 0, effectiveLength);
@@ -100,6 +120,12 @@ public class SortArrayList {
         }
     }
 
+    /**
+     * 根据下标获取数据
+     *
+     * @param index
+     * @return
+     */
     public long get(int index) {
         //如果查找的下标小于0，或者大于等于有效指针，则查找的下标无效
         if (index < 0 || index >= effectiveLength) {
@@ -108,6 +134,12 @@ public class SortArrayList {
         return array[index];
     }
 
+    /**
+     * 根据下标修改数据
+     *
+     * @param index
+     * @param value
+     */
     public void change(int index, long value) {
         //如果查找的下标小于0，或者大于等于有效指针，则查找的下标无效
         if (index < 0 || index >= effectiveLength) {
@@ -116,6 +148,11 @@ public class SortArrayList {
         array[index] = value;
     }
 
+    /**
+     * 根据下表删除数据
+     *
+     * @param index
+     */
     public void delete(int index) {
         //如果查找的下标小于0，或者大于等于有效指针，则查找的下标无效
         if (index < 0 || index >= effectiveLength) {
@@ -123,5 +160,14 @@ public class SortArrayList {
         }
         //将数组元素在index位置上整体前移一个位置，有效长度-1
         System.arraycopy(array, index + 1, array, index, effectiveLength--);
+    }
+
+    /**
+     * 获取数组长度
+     *
+     * @return
+     */
+    public int size() {
+        return effectiveLength;
     }
 }
