@@ -1,1 +1,6 @@
-out/
+*/target
+*/tomcat
+*.iml
+/.idea
+*.class
+/data/
