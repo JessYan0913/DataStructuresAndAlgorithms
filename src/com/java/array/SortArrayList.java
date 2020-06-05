@@ -11,6 +11,9 @@ public class SortArrayList {
     }
 
     public SortArrayList(int length) {
+        if (length < 0) {
+            throw new ArrayIndexOutOfBoundsException(length);
+        }
         array = new long[length];
     }
 

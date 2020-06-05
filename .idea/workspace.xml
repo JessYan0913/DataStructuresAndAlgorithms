@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41748172-44a9-4c8c-83be-d89f322df744" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/java/sort/SimpleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/queue/CircularQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/queue/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/stack/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/array/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/array/ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/array/SortArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/array/SortArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +55,13 @@
       <recent name="com.java.recursive" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SimpleSort">
-    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.recursive.ReverseArray" />
+  <component name="RunManager" selected="Application.Queue">
+    <configuration name="Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.queue.Queue" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.recursive.*" />
+          <option name="PATTERN" value="com.java.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tinkers.Test" />
+    <configuration name="Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.stack.Stack" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.array.*" />
+          <option name="PATTERN" value="com.java.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Queue" />
+        <item itemvalue="Application.Stack" />
         <item itemvalue="Application.SimpleSort" />
         <item itemvalue="Application.YHTriangle" />
         <item itemvalue="Application.YHTriangle_II" />
-        <item itemvalue="Application.ReverseArray" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +145,8 @@
       <workItem from="1591237967965" duration="5449000" />
       <workItem from="1591248584602" duration="754000" />
       <workItem from="1591261676156" duration="3491000" />
-      <workItem from="1591323673029" duration="3933000" />
+      <workItem from="1591323673029" duration="4015000" />
+      <workItem from="1591342913965" duration="5439000" />
     </task>
     <task id="LOCAL-00001" summary="调整目录结构">
       <created>1591249269993</created>
@@ -157,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591266253548</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="增加排序算法">
+      <created>1591327944157</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591327944158</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,57 +178,62 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="调整目录结构" />
     <MESSAGE value="增加杨辉三角" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加杨辉三角" />
+    <MESSAGE value="增加排序算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加排序算法" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2320" y="398" key="#Project_Structure" timestamp="1591091942491">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
     <state x="2320" y="398" key="#Project_Structure/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591091942490" />
-    <state x="2221" y="336" key="CommitChangelistDialog2" timestamp="1591266251210">
+    <state x="2483" y="445" key="#xdebugger.evaluate" timestamp="1591348151501">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state x="2221" y="336" key="CommitChangelistDialog2/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591266251203" />
+    <state x="2483" y="445" key="#xdebugger.evaluate/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591348151501" />
+    <state x="2221" y="336" key="CommitChangelistDialog2" timestamp="1591327943623">
+      <screen x="1440" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2221" y="336" key="CommitChangelistDialog2/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591327943623" />
     <state width="485" height="466" key="DebuggerActiveHint" timestamp="1591241836595">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
     <state width="485" height="466" key="DebuggerActiveHint/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591241836595" />
-    <state width="2518" height="408" key="GridCell.Tab.0.bottom" timestamp="1591327904904">
+    <state width="2518" height="634" key="GridCell.Tab.0.bottom" timestamp="1591348650307">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="408" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591327904904" />
-    <state width="2518" height="408" key="GridCell.Tab.0.center" timestamp="1591327904902">
+    <state width="2518" height="634" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591348650307" />
+    <state width="2518" height="634" key="GridCell.Tab.0.center" timestamp="1591348650305">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="408" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591327904902" />
-    <state width="2518" height="408" key="GridCell.Tab.0.left" timestamp="1591327904902">
+    <state width="2518" height="634" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591348650305" />
+    <state width="2518" height="634" key="GridCell.Tab.0.left" timestamp="1591348650304">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="408" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591327904902" />
-    <state width="2518" height="408" key="GridCell.Tab.0.right" timestamp="1591327904904">
+    <state width="2518" height="634" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591348650304" />
+    <state width="2518" height="634" key="GridCell.Tab.0.right" timestamp="1591348650306">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="408" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591327904904" />
-    <state width="2518" height="501" key="GridCell.Tab.1.bottom" timestamp="1591325987773">
+    <state width="2518" height="634" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591348650306" />
+    <state width="2518" height="501" key="GridCell.Tab.1.bottom" timestamp="1591348350630">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="501" key="GridCell.Tab.1.bottom/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591325987773" />
-    <state width="2518" height="501" key="GridCell.Tab.1.center" timestamp="1591325987772">
+    <state width="2518" height="501" key="GridCell.Tab.1.bottom/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591348350630" />
+    <state width="2518" height="501" key="GridCell.Tab.1.center" timestamp="1591348350620">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="501" key="GridCell.Tab.1.center/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591325987772" />
-    <state width="2518" height="501" key="GridCell.Tab.1.left" timestamp="1591325987771">
+    <state width="2518" height="501" key="GridCell.Tab.1.center/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591348350620" />
+    <state width="2518" height="501" key="GridCell.Tab.1.left" timestamp="1591348350619">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="501" key="GridCell.Tab.1.left/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591325987771" />
-    <state width="2518" height="501" key="GridCell.Tab.1.right" timestamp="1591325987772">
+    <state width="2518" height="501" key="GridCell.Tab.1.left/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591348350619" />
+    <state width="2518" height="501" key="GridCell.Tab.1.right" timestamp="1591348350621">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="501" key="GridCell.Tab.1.right/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591325987772" />
-    <state x="2320" y="473" key="Vcs.Push.Dialog.v2" timestamp="1591249272122">
+    <state width="2518" height="501" key="GridCell.Tab.1.right/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591348350621" />
+    <state x="2320" y="473" key="Vcs.Push.Dialog.v2" timestamp="1591327946336">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state x="2320" y="473" key="Vcs.Push.Dialog.v2/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591249272122" />
+    <state x="2320" y="473" key="Vcs.Push.Dialog.v2/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591327946336" />
     <state x="2509" y="656" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591249248417">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>

@@ -11,6 +11,9 @@ public class ArrayList {
     }
 
     public ArrayList(int length) {
+        if (length < 0) {
+            throw new ArrayIndexOutOfBoundsException(length);
+        }
         array = new long[length];
     }
 
