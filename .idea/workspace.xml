@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41748172-44a9-4c8c-83be-d89f322df744" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/java/recursive/YHTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/sort/SimpleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
       <recent name="com.java.recursive" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.YHTriangle">
+  <component name="RunManager" selected="Application.SimpleSort">
     <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.recursive.ReverseArray" />
       <module name="DataStructuresAndAlgorithms" />
@@ -65,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tinkers.Test" />
+    <configuration name="SimpleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.sort.SimpleSort" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.array.*" />
+          <option name="PATTERN" value="com.java.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeakHashTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tinkers.WeakHashTest" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tinkers.Test" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimpleSort" />
         <item itemvalue="Application.YHTriangle" />
         <item itemvalue="Application.YHTriangle_II" />
         <item itemvalue="Application.ReverseArray" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.WeakHashTest" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +140,8 @@
       <workItem from="1591091931942" duration="1519000" />
       <workItem from="1591237967965" duration="5449000" />
       <workItem from="1591248584602" duration="754000" />
-      <workItem from="1591261676156" duration="3401000" />
+      <workItem from="1591261676156" duration="3491000" />
+      <workItem from="1591323673029" duration="3933000" />
     </task>
     <task id="LOCAL-00001" summary="调整目录结构">
       <created>1591249269993</created>
@@ -149,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591249269993</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="增加杨辉三角">
+      <created>1591266253547</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591266253548</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,53 +165,54 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="调整目录结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整目录结构" />
+    <MESSAGE value="增加杨辉三角" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加杨辉三角" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2320" y="398" key="#Project_Structure" timestamp="1591091942491">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
     <state x="2320" y="398" key="#Project_Structure/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591091942490" />
-    <state x="2221" y="336" key="CommitChangelistDialog2" timestamp="1591249269474">
+    <state x="2221" y="336" key="CommitChangelistDialog2" timestamp="1591266251210">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state x="2221" y="336" key="CommitChangelistDialog2/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591249269474" />
+    <state x="2221" y="336" key="CommitChangelistDialog2/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591266251203" />
     <state width="485" height="466" key="DebuggerActiveHint" timestamp="1591241836595">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
     <state width="485" height="466" key="DebuggerActiveHint/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591241836595" />
-    <state width="2518" height="501" key="GridCell.Tab.0.bottom" timestamp="1591264802423">
+    <state width="2518" height="408" key="GridCell.Tab.0.bottom" timestamp="1591327904904">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="501" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591264802423" />
-    <state width="2518" height="501" key="GridCell.Tab.0.center" timestamp="1591264802421">
+    <state width="2518" height="408" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591327904904" />
+    <state width="2518" height="408" key="GridCell.Tab.0.center" timestamp="1591327904902">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="501" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591264802421" />
-    <state width="2518" height="501" key="GridCell.Tab.0.left" timestamp="1591264802421">
+    <state width="2518" height="408" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591327904902" />
+    <state width="2518" height="408" key="GridCell.Tab.0.left" timestamp="1591327904902">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="501" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591264802421" />
-    <state width="2518" height="501" key="GridCell.Tab.0.right" timestamp="1591264802422">
+    <state width="2518" height="408" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591327904902" />
+    <state width="2518" height="408" key="GridCell.Tab.0.right" timestamp="1591327904904">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="501" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591264802422" />
-    <state width="2518" height="501" key="GridCell.Tab.1.bottom" timestamp="1591264802426">
+    <state width="2518" height="408" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591327904904" />
+    <state width="2518" height="501" key="GridCell.Tab.1.bottom" timestamp="1591325987773">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="501" key="GridCell.Tab.1.bottom/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591264802426" />
-    <state width="2518" height="501" key="GridCell.Tab.1.center" timestamp="1591264802425">
+    <state width="2518" height="501" key="GridCell.Tab.1.bottom/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591325987773" />
+    <state width="2518" height="501" key="GridCell.Tab.1.center" timestamp="1591325987772">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="501" key="GridCell.Tab.1.center/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591264802425" />
-    <state width="2518" height="501" key="GridCell.Tab.1.left" timestamp="1591264802424">
+    <state width="2518" height="501" key="GridCell.Tab.1.center/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591325987772" />
+    <state width="2518" height="501" key="GridCell.Tab.1.left" timestamp="1591325987771">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="501" key="GridCell.Tab.1.left/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591264802424" />
-    <state width="2518" height="501" key="GridCell.Tab.1.right" timestamp="1591264802425">
+    <state width="2518" height="501" key="GridCell.Tab.1.left/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591325987771" />
+    <state width="2518" height="501" key="GridCell.Tab.1.right" timestamp="1591325987772">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="501" key="GridCell.Tab.1.right/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591264802425" />
+    <state width="2518" height="501" key="GridCell.Tab.1.right/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591325987772" />
     <state x="2320" y="473" key="Vcs.Push.Dialog.v2" timestamp="1591249272122">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
