@@ -1,7 +1,6 @@
 package com.java.recursive;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class YHTriangle {
@@ -56,10 +55,5 @@ public class YHTriangle {
         }
 
         return list;
-    }
-
-    public static void main(String[] args) {
-        List<List<Integer>> generate = generate(15);
-        generate.forEach(System.out::println);
     }
 }

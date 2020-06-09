@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41748172-44a9-4c8c-83be-d89f322df744" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/java/queue/CircularQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/queue/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/stack/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/recursive/ReverseLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/array/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/array/ArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/array/SortArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/array/SortArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/recursive/YHTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/recursive/YHTriangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +52,26 @@
       <recent name="com.java.recursive" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Queue">
+  <component name="RunManager" selected="Application.ReverseLinkedList">
     <configuration name="Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.queue.Queue" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.java.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.recursive.ReverseLinkedList" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.recursive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,26 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="YHTriangle_II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.recursive.YHTriangle_II" />
-      <module name="DataStructuresAndAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.recursive.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseLinkedList" />
         <item itemvalue="Application.Queue" />
         <item itemvalue="Application.Stack" />
         <item itemvalue="Application.SimpleSort" />
         <item itemvalue="Application.YHTriangle" />
-        <item itemvalue="Application.YHTriangle_II" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +143,8 @@
       <workItem from="1591248584602" duration="754000" />
       <workItem from="1591261676156" duration="3491000" />
       <workItem from="1591323673029" duration="4015000" />
-      <workItem from="1591342913965" duration="5439000" />
+      <workItem from="1591342913965" duration="6640000" />
+      <workItem from="1591668024858" duration="892000" />
     </task>
     <task id="LOCAL-00001" summary="调整目录结构">
       <created>1591249269993</created>
@@ -198,38 +196,42 @@
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
     <state width="485" height="466" key="DebuggerActiveHint/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591241836595" />
-    <state width="2518" height="634" key="GridCell.Tab.0.bottom" timestamp="1591348650307">
+    <state width="2518" height="501" key="GridCell.Tab.0.bottom" timestamp="1591669112973">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="634" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591348650307" />
-    <state width="2518" height="634" key="GridCell.Tab.0.center" timestamp="1591348650305">
+    <state width="2518" height="501" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591669112973" />
+    <state width="2518" height="501" key="GridCell.Tab.0.center" timestamp="1591669112967">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="634" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591348650305" />
-    <state width="2518" height="634" key="GridCell.Tab.0.left" timestamp="1591348650304">
+    <state width="2518" height="501" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591669112967" />
+    <state width="2518" height="501" key="GridCell.Tab.0.left" timestamp="1591669112957">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="634" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591348650304" />
-    <state width="2518" height="634" key="GridCell.Tab.0.right" timestamp="1591348650306">
+    <state width="2518" height="501" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591669112957" />
+    <state width="2518" height="501" key="GridCell.Tab.0.right" timestamp="1591669112971">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="634" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591348650306" />
-    <state width="2518" height="501" key="GridCell.Tab.1.bottom" timestamp="1591348350630">
+    <state width="2518" height="501" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591669112971" />
+    <state width="2518" height="501" key="GridCell.Tab.1.bottom" timestamp="1591669112581">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="501" key="GridCell.Tab.1.bottom/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591348350630" />
-    <state width="2518" height="501" key="GridCell.Tab.1.center" timestamp="1591348350620">
+    <state width="2518" height="501" key="GridCell.Tab.1.bottom/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591669112581" />
+    <state width="2518" height="501" key="GridCell.Tab.1.center" timestamp="1591669112580">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="501" key="GridCell.Tab.1.center/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591348350620" />
-    <state width="2518" height="501" key="GridCell.Tab.1.left" timestamp="1591348350619">
+    <state width="2518" height="501" key="GridCell.Tab.1.center/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591669112580" />
+    <state width="2518" height="501" key="GridCell.Tab.1.left" timestamp="1591669112579">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="501" key="GridCell.Tab.1.left/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591348350619" />
-    <state width="2518" height="501" key="GridCell.Tab.1.right" timestamp="1591348350621">
+    <state width="2518" height="501" key="GridCell.Tab.1.left/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591669112579" />
+    <state width="2518" height="501" key="GridCell.Tab.1.right" timestamp="1591669112581">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="501" key="GridCell.Tab.1.right/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591348350621" />
+    <state width="2518" height="501" key="GridCell.Tab.1.right/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591669112581" />
+    <state x="2383" y="449" key="RollbackChangesDialog" timestamp="1591350443542">
+      <screen x="1440" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2383" y="449" key="RollbackChangesDialog/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1591350443542" />
     <state x="2320" y="473" key="Vcs.Push.Dialog.v2" timestamp="1591327946336">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
